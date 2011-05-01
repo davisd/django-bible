@@ -66,3 +66,6 @@ class Verse(models.Model):
 
     def __unicode__(self):
         return '%s %s:%s' % (self.chapter.book.name, self.chapter.number, self.number)
+        
+    def get_absolute_url(self):
+        return '%s#%s' % (self.chapter.get_absolute_url(), self.number)
