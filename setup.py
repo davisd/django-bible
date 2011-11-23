@@ -6,6 +6,7 @@ setup(
     author='David Davis',
     author_email='davisd@davisd.com',
     packages=['bible'],
+    data_files=[('.',['LICENSE'])],
     url='http://www.davisd.com/projects/django-bible/',
     license='LICENSE',
     description='django-bible is a Python package / django app for interfacing' \
