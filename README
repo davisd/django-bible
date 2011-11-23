@@ -1,0 +1,35 @@
+django-bible - A Bible app for the django web framework
+=======================================================
+
+django-bible is a Python module / django app for interfacing with the Holy Bible.
+
+For more information, see http://www.davisd.com/projects/django-bible/
+
+To see this Bible app in action, see http://www.centralbaptistfwb.com/bible/
+
+Installation
+============
+
+A setup script (setup.py) is provided.  To install, simply run the script with the install command:
+
+$ python setup.py install
+
+Or just put the bible package somewhere in the Python path.
+
+Once the bible package is in place, add "bible" to your list of installed applications and run your django syncdb command.
+
+Once the tables have been created, you need to populate the tables with Bible data.
+
+Bible Data
+==========
+
+A JSON dump of the entire KJV Bible is available from the davisd.com link above.
+
+You can load the downloaded Bible data into your project's database using the django loaddata command.
+
+Author
+======
+
+David Davis <davisd@davisd.com>
+http://www.davisd.com
+
