@@ -3,3 +3,6 @@
 *.wpr
 *.swp
 
+MANIFEST
+dist
+
