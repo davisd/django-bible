@@ -8,7 +8,7 @@ setup(
     packages=['bible'],
     url='http://www.davisd.com/projects/django-bible/',
     license='LICENSE',
-    description='django-bible is a Python module / django app for interfacing' \
+    description='django-bible is a Python package / django app for interfacing' \
         'with the Holy Bible.',
     long_description=open('README').read()
 )

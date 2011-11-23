@@ -1,7 +1,7 @@
 django-bible - A Bible app for the django web framework
 =======================================================
 
-django-bible is a Python module / django app for interfacing with the Holy Bible.
+django-bible is a Python package / django app for interfacing with the Holy Bible.
 
 For more information, see http://www.davisd.com/projects/django-bible/
 
