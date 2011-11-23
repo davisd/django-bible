@@ -40,4 +40,6 @@ def book_processor(request, slug, context_name='book'):
 
 @context_processor
 def chapter_processor(request, book_slug, number, context_name='chapter'):
-    return {context_name: get_object_or_404(Chapter, book__slug=book_slug, number=number)}
+    return {context_name: get_object_or_404(
+        Chapter, book__slug=book_slug, number=number)}
+

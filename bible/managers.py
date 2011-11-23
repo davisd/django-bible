@@ -12,3 +12,4 @@ class BookManager(models.Manager):
 
     def get_new_testament(self):
         return self.get_query_set().filter(is_new_testament=True)
+
