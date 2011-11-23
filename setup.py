@@ -9,7 +9,7 @@ setup(
     url='http://www.davisd.com/projects/django-bible/',
     license='LICENSE',
     description='django-bible is a Python package / django app for interfacing' \
-        'with the Holy Bible.',
+        ' with the Holy Bible.',
     long_description=open('README').read()
 )
 
